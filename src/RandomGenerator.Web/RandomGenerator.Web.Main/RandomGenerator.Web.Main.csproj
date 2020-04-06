@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>RandomGenerator.Web.Main</AssemblyName>
+    <RootNamespace>RandomGenerator.Web.Main</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\RandomGenerator.Shared\RandomGenerator.Shared.csproj" />
+    <ProjectReference Include="..\RandomGenerator.Web.Services\RandomGenerator.Web.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
